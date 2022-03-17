@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+
+session/
+vendor/
+composer.lock
+MadelineProto.log

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Kite+One|Farsan|Monaco');
+
+*,
+*::before,
+*::after {
+  color     : #fff;
+  margin    : 0;
+  padding   : 0;
+  box-sizing: border-box;
+}
+
+body {
+  display         : flex;
+  min-height      : 100vh;
+  align-items     : center;
+  justify-content : center;
+  background-color: #f0f0f0;
+}
+
+input, button, textarea, select {
+  border       : none;
+  outline      : none;
+  background   : none;
+  border-radius: 0;
+}
+
+a {
+  color: hsl(192, 100%, 40%);
+  
+  transition: color 250ms;
+}
+a:visited {
+  color: hsl(192, 100%, 40%);
+}
+a:hover {
+  color: hsl(192, 100%, 45%);
+}
+
+
+.container {
+  padding        : 2.5rem 4rem;
+  display        : flex;
+  align-items    : center;
+  flex-direction : column;
+  justify-content: center;
+
+  box-shadow      : 0 0 20px -4px rgba(0, 0, 0, 0.5);
+  border-radius   : 4px;
+  background-color: #222;
+}
+
+h1 {
+  font-size  : 2.5rem;
+  font-weight: 100;
+  font-family: Satisfy;
+  text-shadow: 0 0 2px #f0f0f0;
+}
+
+h2 {
+  color         : #E60000 !important;
+  margin-top    : 2rem;
+  font-weight   : 900;
+  font-family   : Farsan;
+  letter-spacing: 0.5px;
+}
+
+p {
+  margin     : 2rem 0;
+  font-size  : 1rem;
+  font-family: 'Kite One';
+}
+
+code {
+  font-size: 0.85rem;
+  font-family: Monaco, monospace;
+}
+
+select, select option, button,
+input[type="text"], input[type="password"] {
+  color         : #111;
+  font-size     : 1rem;
+  font-weight   : 900;
+  font-family   : Farsan;
+  letter-spacing: 0.5px;
+}
+
+select, button,
+input[type="text"], input[type="password"] {
+  border-radius   : 1px;
+  background-color: #f0f0f0;
+}
+
+button {
+  cursor     : pointer;
+  padding    : 3px 5px;
+  margin-left: 5px;
+}
+button:active {
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+select {
+  padding: 2px 5px;
+}
+select option {
+  font-weight: 100;
+}
+
+input[type="text"], input[type="password"] {
+  padding: 3px 8px;
+  letter-spacing: 1px;
+}
