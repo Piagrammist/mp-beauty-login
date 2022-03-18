@@ -1,3 +1,3 @@
 # Styled MadelineProto login pages
 
-![Preview](/shots/login-type.png)
+![Preview](/shots/login-type.jpg)
