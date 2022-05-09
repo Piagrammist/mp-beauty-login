@@ -14,9 +14,7 @@
 
         const SESSION_DIR = __DIR__.'/../session';
 
-        if (is_file(__DIR__.'/../vendor/autoload.php')) {
-            require __DIR__.'/../vendor/autoload.php';
-        }
+        require __DIR__.'/../vendor/autoload.php';
         require __DIR__.'/EventHandler.php';
 
         is_dir(SESSION_DIR) || mkdir(SESSION_DIR);
